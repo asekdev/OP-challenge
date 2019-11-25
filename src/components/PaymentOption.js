@@ -16,7 +16,10 @@ const PaymentOption = ({
   const { paymentCount } = optionData;
   const paymentInstallments =
     intervalType === "fortnightly" ? paymentCount / 2 : paymentCount;
-  const installments = totalCart / paymentCount;
+  const installments =
+    intervalType === "fortnightly"
+      ? (totalCart / paymentCount) * 2
+      : totalCart / paymentCount;
 
   const determineActiveState = () => {
     return (
