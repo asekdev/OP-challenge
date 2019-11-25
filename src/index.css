@@ -5,9 +5,103 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Muli", sans-serif;
+
+  background-color: #d2e0f2 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p,
+h1,
+h2,
+h3,
+button,
+a,
+span {
+  font-family: "Muli", sans-serif;
+}
+
+.customise-header {
+  font-weight: 700;
+  color: #395c6b !important;
+}
+
+.brand-first-half {
+  color: #3742fa !important;
+  font-weight: 800;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.brand-second-half {
+  color: #55e6c1 !important;
+  font-weight: 900;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.user-cart {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+.selection-button {
+  border: 1px solid #c3cfe0 !important;
+  background-color: #fff;
+}
+
+.goback-btn {
+  border: 0px !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+
+.goback-btn:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+
+.goback-btn:active {
+  background-color: transparent !important;
+  font-weight: 700;
+  color: #000 !important;
+}
+
+.option-finish {
+  font-weight: 400;
+}
+
+.option-payments {
+  font-weight: 400;
+  color: #7e8691;
+}
+
+.goback-btn:focus {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+ul.nav-tabs {
+  border-bottom: 0px !important;
+}
+
+.nav-tabs .nav-link:hover {
+  border: 0px !important;
+  cursor: pointer;
+  background-color: #c3cfe0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+}
+
+.btn-light.focus,
+.btn-light:focus {
+  box-shadow: none !important;
 }
